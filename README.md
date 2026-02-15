@@ -1,93 +1,108 @@
-📊 Titanic Data Visualization Project
-📌 Project Overview
+# 📊 Titanic Data Visualization
 
-This project analyzes passenger data from the Titanic disaster (1912) using Python.
-It visualizes the distribution of categorical and continuous variables using bar charts and histograms.
+## 📌 Project Overview
+This project analyzes passenger data from the Titanic disaster (1912) 
+and visualizes the distribution of categorical and continuous variables 
+using Python.
 
-Dataset used:
-Titanic - Machine Learning from Disaster
-Provided by: Kaggle
+Dataset Used:
+Titanic - Machine Learning from Disaster (Kaggle)
 
-🎯 Objective
+---
 
-To visualize:
+## 🎯 Objective
+The objective of this project is to:
 
-Distribution of Gender (Categorical Variable)
+- Visualize distribution of Gender (Categorical Variable)
+- Visualize distribution of Age (Continuous Variable)
+- Use Bar Chart and Histogram for representation
 
-Distribution of Age (Continuous Variable)
+---
 
-Using:
+## 📂 Dataset Information
 
-Bar Chart
+The dataset contains passenger details such as:
 
-Histogram
+| Column | Description |
+|--------|------------|
+| PassengerId | Unique passenger ID |
+| Survived | Survival status (0 = No, 1 = Yes) |
+| Pclass | Passenger class (1, 2, 3) |
+| Name | Passenger name |
+| Sex | Gender of passenger |
+| Age | Age of passenger |
+| Fare | Ticket fare |
 
-📂 Dataset Description
+---
 
-The dataset contains information about passengers aboard the RMS Titanic.
+## 🛠 Technologies Used
 
-Key columns used in this project:
+- Python
+- Pandas
+- Matplotlib
+- Git
+- GitHub
 
-Column	Description
-Sex	Gender of passenger
-Age	Age of passenger
-Survived	Survival status (0 = No, 1 = Yes)
-Pclass	Passenger class (1, 2, 3)
-Fare	Ticket fare
-🛠 Technologies Used
+---
 
-Python
+## 📊 Visualizations
 
-Pandas
+### 1️⃣ Gender Distribution (Bar Chart)
+Shows the count of male and female passengers.
 
-Matplotlib
+### 2️⃣ Age Distribution (Histogram)
+Shows how passenger ages are distributed across different age ranges.
 
-Git & GitHub
+---
 
-📊 Visualizations Created
+## 🚀 How to Run the Project
 
-1️⃣ Bar Chart
-
-Shows distribution of male and female passengers.
-
-2️⃣ Histogram
-
-Shows distribution of passenger ages.
-
-🚀 How to Run the Project
-
-Clone the repository:
-
+### 1. Clone the Repository
+```bash
 git clone https://github.com/yourusername/titanic-visualization.git
+```
 
-
-Navigate to project folder:
-
+### 2. Navigate to Project Folder
+```bash
 cd titanic-visualization
+```
 
-
-Create virtual environment:
-
+### 3. Create Virtual Environment
+```bash
 python -m venv venv
+```
 
-
-Activate environment:
+### 4. Activate Virtual Environment
 
 Windows:
-
+```bash
 venv\Scripts\activate
-
+```
 
 Mac/Linux:
-
+```bash
 source venv/bin/activate
+```
 
-
-Install dependencies:
-
+### 5. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-
-Run the program:
-
+### 6. Run the Project
+```bash
 python main.py
+```
+
+---
+
+## 📈 Output
+
+- Bar Chart of Gender Distribution
+- Histogram of Age Distribution
+
+---
+
+## 📚 Conclusion
+This project demonstrates basic data visualization techniques 
+to analyze categorical and continuous data effectively.
