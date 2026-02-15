@@ -67,29 +67,12 @@ git clone https://github.com/yourusername/titanic-visualization.git
 cd titanic-visualization
 ```
 
-### 3. Create Virtual Environment
-```bash
-python -m venv venv
-```
-
-### 4. Activate Virtual Environment
-
-Windows:
-```bash
-venv\Scripts\activate
-```
-
-Mac/Linux:
-```bash
-source venv/bin/activate
-```
-
-### 5. Install Dependencies
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 6. Run the Project
+### 4. Run the Project
 ```bash
 python main.py
 ```
@@ -101,8 +84,3 @@ python main.py
 - Bar Chart of Gender Distribution
 - Histogram of Age Distribution
 
----
-
-## 📚 Conclusion
-This project demonstrates basic data visualization techniques 
-to analyze categorical and continuous data effectively.
