@@ -59,7 +59,7 @@ Shows how passenger ages are distributed across different age ranges.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/titanic-visualization.git
+git clone https://github.com/yash-bagale/PRODIGY_DS_01.git
 ```
 
 ### 2. Navigate to Project Folder
