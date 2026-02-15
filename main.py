@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("train.csv")
 
 # -----------------------------
-# 1️⃣ Bar Chart (Categorical Variable - Sex)
+# Bar Chart (Categorical Variable - Sex)
 # -----------------------------
 gender_counts = df['Sex'].value_counts()
 
@@ -20,7 +20,7 @@ plt.show()
 
 
 # -----------------------------
-# 2️⃣ Histogram (Continuous Variable - Age)
+# Histogram (Continuous Variable - Age)
 # -----------------------------
 plt.figure()
 plt.hist(df['Age'].dropna(), bins=10)
